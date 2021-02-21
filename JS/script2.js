@@ -14,7 +14,7 @@ let newLokasi = document.getElementById("newLokasi");
 let newPengalaman = document.getElementById("newPengalaman");
 let newEmail = document.getElementById("newEmail");
 
-let CustName = document.getElementById("custName");
+let CustName = document.getElementById("CustName");
 let RoleName = document.getElementById("RoleName");
 let AvailabilityStatus = document.getElementById("AvailabilityStatus");
 let UsiaStatus = document.getElementById("UsiaStatus");
