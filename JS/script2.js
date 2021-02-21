@@ -14,7 +14,7 @@ let newLokasi = document.getElementById("newLokasi");
 let newPengalaman = document.getElementById("newPengalaman");
 let newEmail = document.getElementById("newEmail");
 
-let custName = document.getElementById("custName");
+let CustName = document.getElementById("custName");
 let RoleName = document.getElementById("RoleName");
 let AvailabilityStatus = document.getElementById("AvailabilityStatus");
 let UsiaStatus = document.getElementById("UsiaStatus");
@@ -44,11 +44,11 @@ let hideForm = () => {
 }
 
 function saveMessage() {
-    nama.innerHTML = CustName.inputvalue;
-    newRole.innerHTML = RoleName.inputvalue;
-    newAvailability.innerHTML = AvailabilityStatus.inputvalue;
-    newUsia.innerHTML = UsiaStatus.inputvalue;
-    newLokasi.innerHTML = LokasiStatus.inputvalue;
-    newPengalaman.innerHTML = YearStatus.inputvalue;
-    newEmail.innerHTML = EmailStatus.inputvalue;
+    nama.innerHTML = CustName.value;
+    newRole.innerHTML = RoleName.value;
+    newAvailability.innerHTML = AvailabilityStatus.value;
+    newUsia.innerHTML = UsiaStatus.value;
+    newLokasi.innerHTML = LokasiStatus.value;
+    newPengalaman.innerHTML = YearStatus.value;
+    newEmail.innerHTML = EmailStatus.value;
 }
