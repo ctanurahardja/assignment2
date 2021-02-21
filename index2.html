@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2 Clarissa</title>
+</head>
+<body>
+    
+   <div id="nama">Nama Anda</div>
+
+   <style>
+    figure{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:green;
+    text-align: left;}
+</style>
+<figure>
+    <img src="https://i.ytimg.com/vi/ynp7O45r0s8/maxresdefault.jpg" width="300px" height="200px" alt="ini sebuah foto">
+</figure>
+
+<div id="newRole">Role</div>
+<div id="newAvailability"> Availability </div>
+<div id="newUsia"> Usia </div>
+<div id="newLokasi">Lokasi</div>
+<div id="newPengalaman">Pengalaman</div>
+<div id="newEmail">Email</div>
+
+   <P></P><button id="Edit"
+   
+   onclick="showForm()"
+   onmouseover="hideForm()">Edit</button>
+
+   <button id ="Resume">Resume</button>
+
+    <ul>
+    <form id="namaAnda">
+        Nama: <input type="text" id="CustName">
+        </form>
+    </ul>
+    
+    <ul>
+    <form id="role">
+        Role: <input type="text" id="RoleName">
+        </form>
+    </ul>
+    
+    <ul>
+    <form id="availability">
+        Availability: <input type="text" id="AvailabilityStatus">
+        </form>
+    </ul>
+
+    <ul>
+    <form id="usia">
+        Usia: <input type="text" id="UsiaStatus">
+        </form>
+    </ul>
+
+    <ul>
+    <form id="lokasi">
+        Lokasi: <input type="text" id="LokasiStatus">
+        </form>
+        </ul>
+    
+    <ul>
+    <form id="yearsexperience">
+        Years Experience: <input type="text" id="YearStatus">
+        </form>
+        </ul>
+    
+    <ul>
+    <form id="email">
+        Email: <input type="text" id="EmailStatus">
+        </form>
+        </ul>
+    
+    <button id="btnSubmit" onclick="saveMessage()">Submit</button>
+
+        <script src=js/script2.js></script>
+
+</body>
+</html>
