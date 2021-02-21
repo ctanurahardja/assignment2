@@ -6,6 +6,14 @@ let lokasi = document.getElementById("lokasi");
 let yearsexperience = document.getElementById("yearsexperience");
 let email = document.getElementById("email");
 
+let nama = document.getElementById("nama");
+let newRole = document.getElementById("newRole");
+let newAvailability = document.getElementById("newAvailability");
+let newUsia = document.getElementById("newUsia");
+let newLokasi = document.getElementById("newLokasi");
+let newPengalaman = document.getElementById("newPengalaman");
+let newEmail = document.getElementById("newEmail");
+
 let custName = document.getElementById("custName");
 let RoleName = document.getElementById("RoleName");
 let AvailabilityStatus = document.getElementById("AvailabilityStatus");
@@ -36,7 +44,7 @@ let hideForm = () => {
 }
 
 function saveMessage() {
-    nama.innerHTML = custName.inputvalue;
+    nama.innerHTML = CustName.inputvalue;
     newRole.innerHTML = RoleName.inputvalue;
     newAvailability.innerHTML = AvailabilityStatus.inputvalue;
     newUsia.innerHTML = UsiaStatus.inputvalue;
